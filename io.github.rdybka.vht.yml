@@ -6,7 +6,6 @@ command: vht
 finish-args:
   - --filesystem=xdg-run/pipewire-0
   - --socket=wayland
-  - --socket=fallback-x11
   - --share=ipc
 modules:
   - name: vht
